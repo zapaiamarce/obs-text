@@ -1,0 +1,15 @@
+{
+  "name": "obs-text",
+  "version": "1.0.0",
+  "description": "",
+  "main": "graph.js",
+  "type": "module",
+  "bin": {
+    "obs-graph": "bin/comando.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

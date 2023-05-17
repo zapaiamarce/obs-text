@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  font-family: "Silka";
+  font-size: 27px;
+}
+.caja,
+.textLabel,
+.red {
+  background-color: black;
+  color: white;
+  padding: 12px;
+  opacity: 0.95;
+  border-radius: 3px;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.textLabel {
+  opacity: 0;
+  font-weight: bold;
+  /* background-color: violet; */
+  min-height: 100vh;
+  display: inline-flex;
+  padding: 12px 45px 12px 30px;
+  align-items: center;
+  min-width: 420px;
+  animation: slidein 0.2s ease-in-out forwards;
+}
+
+.redes {
+  display: inline-grid;
+  gap: 9px;
+  align-items: flex-start;
+}
+
+.red {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  line-height: 1;
+  padding: 15px 60px 15px 30px;
+}
+
+.red > svg {
+  height: 42px;
+  width: auto;
+}
